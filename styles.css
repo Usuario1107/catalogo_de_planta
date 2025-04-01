@@ -3,13 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #c6ffd4;
+    background-color: #d1fddc;
     color: #333;
 }
 
 header {
-    background-color: #81ff75;
-    color: rgb(0, 0, 0);
+    background-color: #7afa71;
+    color: rgb(255, 255, 255);
+    
     text-align: center;
     padding: 20px 0;
     margin-bottom: 30px;
@@ -17,12 +18,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    margin: 5px 0 0;
-    font-size: 1.1em;
+    font-size: 14px;
 }
 
 /* Contenedor de plantas */
@@ -37,7 +33,7 @@ header p {
 
 /* Tarjetas de plantas */
 .plant-card {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(220, 220, 220);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -80,6 +76,7 @@ header p {
 /* Pie de página */
 footer {
     font-family:'Playfair Display', serif;
+    font-size: 12px;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
